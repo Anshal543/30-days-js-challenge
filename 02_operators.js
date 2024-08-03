@@ -110,3 +110,8 @@ console.log(result);
 let i = 10;
 let result1 = i > 0 ? 'positive' : 'negative';
 console.log(result1);
+
+for (let i = 1; i < 5; i++) {
+    if(i===3)continue
+    console.log(i);    
+}
